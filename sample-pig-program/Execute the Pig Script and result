@@ -1,0 +1,13 @@
+To execute the pig script in HDFS mode, run the following command:
+Command: pig sample.pig
+
+/*The first command loads the file ‘information.txt’ into variable A with indirect schema (FName, LName, MobileNo, City, Profession).
+The second command loads the required data from variable A to variable B.
+The third line displays the content of variable B on the terminal/console.*/
+
+result:
+(ravi,923456789,Bangalore,Engineer)
+(suresh,987654329,chennai,Engineer)
+(Mahesh,7811548966,Pune,professor)
+(Sandeep,9647987478,Hyderabad,Business)
+(karthik,9256458798,chennai,Professor)
