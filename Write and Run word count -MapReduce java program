@@ -1,0 +1,17 @@
+*I have created a file called ‘fruits.txt’ using vi editor with below contents and uploaded into my ‘input’ folder. 
+apple mango pineapple mango apple guava banana banana mango pineapple apple banana 
+
+*Now in ecplise editor right click on ‘Input (0) and select ‘Upload files to DFS’ and upload your input files. 
+
+*To Create Mapper, Reducer and Driver right click on ‘src’ folder of your project and select New- package and enter your package name say com.consiga.Now, right click on the package ‘com.mycom’ and new – other – class and give a name to your class say ‘WordCount’ Note: You can actually add ‘Mapper’, ‘Reducer’ and ‘Driver’ classes individually but using one class for all three makes things easy.Open your WordCount.java class in eclipse and write the code.
+
+*Run your Map/Reduce project Right click on your Map/Reduce project and select ‘Run As’ – ‘Run on Hadoop’.
+
+*Check your Output folder for generated output Refresh your Hadoop locations to see that the Output folder is created by Hadoop for you. If you create the Output folder by yourself, you will get an error.If everything runs fine, you should get your output as below 
+apple 3
+banana 3
+guava 1 
+mango 3 
+pineapple 2
+*Access the jobs through browser. 
+You can see the running jobs and completed jobs by hitting the URL http://localhost:50030
